@@ -2,10 +2,14 @@ package com.example.SpringBootDemo;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.web.bind.annotation.RestController;
 
+
+/**
+ http://127.0.0.1:8080/api/v1/student
+
+ */
 @SpringBootApplication
-@RestController //
+//@RestController //创建Restful API
 public class SpringBootDemoApplication {
 
 	public static void main(String[] args) {
